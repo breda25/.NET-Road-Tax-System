@@ -1,21 +1,9 @@
-# README.md
-├── backend
-│   ├── Controllers
-│   ├── Models
-│   ├── Services
-│   ├── Data
-│   ├── Program.cs
-│   ├── appsettings.json
-│   └── vignette-app.csproj
-├── frontend
-│   ├── src
-│   ├── package.json
-│   └── tsconfig.json
-└── README.md
-```
-.NET Road Tax System (Vignette App)
-====================================================
+<div align="center">
+   <h1>.NET Road Tax System (Vignette App)</h1>
+   <p><strong>Modern, full-stack web application for managing vehicle road tax and vignette attestations</strong></p>
+</div>
 
+---
 <div align="center">
    <h1>.NET Road Tax System (Vignette App)</h1>
    <p><strong>Modern, full-stack web application for managing vehicle road tax and vignette attestations</strong></p>
@@ -32,14 +20,14 @@ The .NET Road Tax System (Vignette App) is a robust, user-friendly web platform 
 ## 👥 Actors & User Roles
 
 - **Vehicle Owners / End Users:**
-      - Register and manage their vehicles
-      - Generate and download official vignette attestations
-      - Verify the status of their vehicle’s road tax
+   - Register and manage their vehicles
+   - Generate and download official vignette attestations
+   - Verify the status of their vehicle’s road tax
 
 - **Administrators:**
-      - Oversee all vehicle records
-      - Manage user submissions and data integrity
-      - Perform advanced queries and reporting
+   - Oversee all vehicle records
+   - Manage user submissions and data integrity
+   - Perform advanced queries and reporting
 
 ---
 
@@ -56,35 +44,20 @@ This project was conceived to address the need for a transparent, digital, and a
 - **Language:** C#
 - **Database:** SQLite (via Entity Framework Core)
 - **Responsibilities:**
-      - Exposes RESTful API endpoints for all CRUD operations
-      - Handles business logic, validation, and data persistence
-      - Manages authentication and authorization (future-ready)
+   - Exposes RESTful API endpoints for all CRUD operations
+   - Handles business logic, validation, and data persistence
+   - Manages authentication and authorization (future-ready)
 
 ### Frontend (Web Client)
 - **Framework:** React.js
 - **Language:** TypeScript
 - **UI:** Modern, responsive design with reusable components
 - **Responsibilities:**
-      - Provides intuitive forms for car registration and vignette management
-      - Displays verification results and attestation documents
-      - Communicates with backend via Axios
+   - Provides intuitive forms for car registration and vignette management
+   - Displays verification results and attestation documents
+   - Communicates with backend via Axios
 
 ### Project Structure
-```text
-.NET-Road-Tax-System/
-├── backend/
-│   ├── Controllers/         # API endpoints
-│   ├── Models/             # Data models (Car, Transaction, DTOs)
-│   ├── Services/           # Business logic
-│   ├── Data/               # EF Core DbContext
-│   ├── Migrations/         # Database migrations
-│   ├── Program.cs, Startup.cs
-│   └── vignette-app.csproj
-├── frontend/
-│   ├── src/                # React components, services, types
-│   ├── public/             # Static assets
-│   ├── package.json, tsconfig.json
-└── README.md
 ```
 .NET-Road-Tax-System/
 ├── backend/
@@ -140,15 +113,15 @@ npm start                  # Runs on http://localhost:3000
 ## 🧩 Technical Details
 
 - **API Endpoints:**
-      - `/api/cars` – CRUD for car records
-      - `/api/transactions` – Manage vignette transactions
+   - `/api/cars` – CRUD for car records
+   - `/api/transactions` – Manage vignette transactions
 - **Database:**
-      - SQLite file-based DB for easy local development
-      - Migrations managed via EF Core
+   - SQLite file-based DB for easy local development
+   - Migrations managed via EF Core
 - **Frontend:**
-      - React components for Home, Car Form, Car Details, Verification Result
-      - TypeScript types for strong typing
-      - Axios for HTTP requests
+   - React components for Home, Car Form, Car Details, Verification Result
+   - TypeScript types for strong typing
+   - Axios for HTTP requests
 
 ---
 
