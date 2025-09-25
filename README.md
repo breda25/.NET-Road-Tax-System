@@ -3,14 +3,6 @@
    <p><strong>Modern, full-stack web application for managing vehicle road tax and vignette attestations</strong></p>
 </div>
 
----
-<div align="center">
-   <h1>.NET Road Tax System (Vignette App)</h1>
-   <p><strong>Modern, full-stack web application for managing vehicle road tax and vignette attestations</strong></p>
-</div>
-
----
-
 ## 🚗 Project Overview
 
 The .NET Road Tax System (Vignette App) is a robust, user-friendly web platform designed to streamline the management of vehicle registrations, road tax (vignette) verification, and attestation generation. Built for both end-users and administrative staff, it provides a seamless experience for verifying, registering, and managing car data securely and efficiently.
